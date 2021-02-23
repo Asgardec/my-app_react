@@ -6,7 +6,7 @@ const Post = (props) => {
   return(
       <div className={s.item}>
         {props.message}
-      <img src="https://static.wikia.nocookie.net/under-druck/images/5/5b/Ava.jpg/revision/latest?cb=20201118200938" />
+      <img src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg" />
       <div>
         <span>likes</span> {props.likesCount}
       </div>
