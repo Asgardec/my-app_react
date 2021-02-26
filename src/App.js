@@ -15,13 +15,13 @@ import Profile from './components/Profile/Profile';
 import Settings from './components/Settings/Settings';
 
 const App = (props) => {
-  return ( <BrowserRouter>
+  return (
     <div className = 'app-wrapper'>
     <Header />
     <Navbar />
     <div className = 'app-wrapper-content'>
     <Route path = '/dialogs'
-      render = {() => <Dialogs state={props.state.dialogsPage}
+      render = {() => <Dialogs store={props.store}
       />} />
     <Route path ='/Profile'
       render ={() => <Profile state={props.state.profilePage}
@@ -31,7 +31,7 @@ const App = (props) => {
     <Route path ='/Settings' render ={() => <Settings />}/>
     </div>
     </div>
-    </BrowserRouter > )
+     )
 }
 
 export default App;
