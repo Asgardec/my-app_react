@@ -3,11 +3,11 @@ import React from 'react';
 import {
   addPostActionCreator,
   updateNewPostTextActionCreator,
-} from '../../../redux/state';
+} from '../../../redux/profileReducer';
 import Post from './Post/Post';
 import s from './MyPosts.module.css';
 
-  
+
 
 
   const MyPosts = (props) => {
