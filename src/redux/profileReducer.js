@@ -6,7 +6,7 @@ let initialState = {
       {id: 2, message: "Hi! Nice to see u again!", likesCount: 40},
       {id: 3, message: "Its my first Post!", likesCount: 12}
    ],
-   newPostText: ["let it begin"]
+   newPostText: ["Anything new?"]
 
 };
 

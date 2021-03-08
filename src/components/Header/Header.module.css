@@ -1,13 +1,17 @@
 .header {
-  grid-area: h;
-  background-color: #7ca9ff;
+    grid-area: h;
+    background-color: #3949ab;
 }
+
 .header img {
-width: 60px;
-height: 40px;
+    width: 60px;
+    height: 40px;
 
 }
-strong a{
-  font-size: x-large;
-  color: #7c002e;
+ul div {
+    text-align: center;
+}
+strong a {
+    font-size: x-large;
+    color: #7c002e;
 }

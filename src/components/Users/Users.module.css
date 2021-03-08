@@ -1,0 +1,12 @@
+.usersPhoto {
+    width: 100px;
+    height: 100px;
+    padding-top: 40px;
+
+}
+
+
+span div {
+    cursor: pointer;
+    color: #2a5885;
+}

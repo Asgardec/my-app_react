@@ -3,6 +3,7 @@ import React from 'react';
 import DialogItem from './DialogItem/DialogItem';
 import Message from './Message/Message';
 import s from "./Dialogs.module.css"
+import Button from "@material-ui/core/Button";
 
 
 const Dialogs = (props) => {
@@ -32,7 +33,7 @@ const Dialogs = (props) => {
                         onChange={onNewMessageChange}
                         placeholder='Enter your message'></textarea></div>
          <div>
-            <button onClick={onSendMessageClick}>Send</button>
+            <Button onClick={onSendMessageClick} color="primary">Send</Button>
          </div>
       </div>
    </div>)

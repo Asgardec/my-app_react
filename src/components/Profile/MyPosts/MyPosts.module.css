@@ -5,3 +5,13 @@
 .posts {
   margin-top: 10px;
 }
+
+textarea {
+  overflow: auto;
+  width: 400px;
+  height: 100px;
+  resize: none;
+}
+h3 {
+  color: white;
+}

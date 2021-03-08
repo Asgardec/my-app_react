@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post/Post';
 import s from './MyPosts.module.css';
+import Button from "@material-ui/core/Button";
 
 
 const MyPosts = (props) => {
@@ -23,7 +24,9 @@ const MyPosts = (props) => {
       <textarea onChange={onPostChange} ref={newPostElement}
                 value={props.newPostText}/>
          </div>
-         <button onClick={onAddPost}>Add Post</button>
+         <Button onClick={onAddPost} variant="contained" color="primary">
+            Add post
+         </Button>
          <div className={s.posts}>
             {postsElements}
          </div>
